@@ -34,6 +34,1201 @@
           }
         ],
         "line": 8,
+        "name": "Verify search term on home page",
+        "description": "",
+        "id": "verify-homepage-search-functionalities;verify-search-term-on-home-page",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User enters a search term",
+            "match": {
+              "location": "AP_HomePageSearch_StepDefinition.user_enters_a_search_term()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User clicks on search button",
+            "match": {
+              "location": "AP_HomePageSearch_StepDefinition.user_clicks_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Search box should contain the search term",
+            "match": {
+              "location": "AP_HomePageSearch_StepDefinition.search_box_should_contain_the_search_term()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "safheihgrs",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User is already on automation practice homepage",
+            "match": {
+              "location": "AP_Login_StepDefinition.user_is_already_on_automation_practice_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.setUp2()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Search dresses and verify Blouse is an option",
+        "description": "",
+        "id": "verify-homepage-search-functionalities;search-dresses-and-verify-blouse-is-an-option",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "User enters \"dresses\" in search engine",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"dresses\"",
+                  "offset": 12
+                }
+              ],
+              "location": "AP_HomePageSearch_StepDefinition.user_enters_in_search_engine(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "User clicks on search button",
+            "match": {
+              "location": "AP_HomePageSearch_StepDefinition.user_clicks_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "User should be on Search - My Store page",
+            "match": {
+              "location": "AP_HomePageSearch_StepDefinition.user_should_be_on_Search_My_Store_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "Blouse option should be displayed",
+            "match": {
+              "location": "AP_HomePageSearch_StepDefinition.blouse_option_should_be_displayed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Verify HomePage Search Functionalities",
+    "description": "",
+    "id": "verify-homepage-search-functionalities",
+    "keyword": "Feature",
+    "uri": "src/test/resources/AP_HomePageSearch.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User is already on automation practice homepage",
+            "match": {
+              "location": "AP_Login_StepDefinition.user_is_already_on_automation_practice_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User clicks on sign in button",
+            "match": {
+              "location": "AP_Login_StepDefinition.user_clicks_on_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User enters \"mustakil@gmail.com\" in Email Address Text Box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mustakil@gmail.com\"",
+                  "offset": 12
+                }
+              ],
+              "location": "AP_Login_StepDefinition.user_enters_in_Email_Address_Text_Box(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User clicks on Create an Account button",
+            "match": {
+              "location": "AP_Login_StepDefinition.user_clicks_on_Create_an_Account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User should be on Create an Account Page",
+            "match": {
+              "location": "AP_Login_StepDefinition.user_should_be_on_Create_an_Account_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.setUp2()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Create/register four accounts successfully",
+        "description": "",
+        "id": "verify-login/sign-up-functionalities;create/register-four-accounts-successfully;;2",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "User enters \"park@gmail.com\"  in email Address Text Box",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "User clicks on Create an Account button",
+            "match": {
+              "location": "AP_Login_StepDefinition.user_clicks_on_Create_an_Account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "User should be on Create an Account Page",
+            "match": {
+              "location": "AP_Login_StepDefinition.user_should_be_on_Create_an_Account_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@practice_scenario_outline"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User is already on automation practice homepage",
+            "match": {
+              "location": "AP_Login_StepDefinition.user_is_already_on_automation_practice_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User clicks on sign in button",
+            "match": {
+              "location": "AP_Login_StepDefinition.user_clicks_on_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User enters \"mustakil@gmail.com\" in Email Address Text Box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mustakil@gmail.com\"",
+                  "offset": 12
+                }
+              ],
+              "location": "AP_Login_StepDefinition.user_enters_in_Email_Address_Text_Box(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User clicks on Create an Account button",
+            "match": {
+              "location": "AP_Login_StepDefinition.user_clicks_on_Create_an_Account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User should be on Create an Account Page",
+            "match": {
+              "location": "AP_Login_StepDefinition.user_should_be_on_Create_an_Account_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.setUp2()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Create/register four accounts successfully",
+        "description": "",
+        "id": "verify-login/sign-up-functionalities;create/register-four-accounts-successfully;;3",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "User enters \"sim@gmail.com\"  in email Address Text Box",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "User clicks on Create an Account button",
+            "match": {
+              "location": "AP_Login_StepDefinition.user_clicks_on_Create_an_Account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "User should be on Create an Account Page",
+            "match": {
+              "location": "AP_Login_StepDefinition.user_should_be_on_Create_an_Account_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@practice_scenario_outline"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User is already on automation practice homepage",
+            "match": {
+              "location": "AP_Login_StepDefinition.user_is_already_on_automation_practice_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User clicks on sign in button",
+            "match": {
+              "location": "AP_Login_StepDefinition.user_clicks_on_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User enters \"mustakil@gmail.com\" in Email Address Text Box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mustakil@gmail.com\"",
+                  "offset": 12
+                }
+              ],
+              "location": "AP_Login_StepDefinition.user_enters_in_Email_Address_Text_Box(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User clicks on Create an Account button",
+            "match": {
+              "location": "AP_Login_StepDefinition.user_clicks_on_Create_an_Account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User should be on Create an Account Page",
+            "match": {
+              "location": "AP_Login_StepDefinition.user_should_be_on_Create_an_Account_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.setUp2()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Create/register four accounts successfully",
+        "description": "",
+        "id": "verify-login/sign-up-functionalities;create/register-four-accounts-successfully;;4",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "User enters \"me@gmail.com\"  in email Address Text Box",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "User clicks on Create an Account button",
+            "match": {
+              "location": "AP_Login_StepDefinition.user_clicks_on_Create_an_Account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "User should be on Create an Account Page",
+            "match": {
+              "location": "AP_Login_StepDefinition.user_should_be_on_Create_an_Account_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@practice_scenario_outline"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User is already on automation practice homepage",
+            "match": {
+              "location": "AP_Login_StepDefinition.user_is_already_on_automation_practice_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User clicks on sign in button",
+            "match": {
+              "location": "AP_Login_StepDefinition.user_clicks_on_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User enters \"mustakil@gmail.com\" in Email Address Text Box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mustakil@gmail.com\"",
+                  "offset": 12
+                }
+              ],
+              "location": "AP_Login_StepDefinition.user_enters_in_Email_Address_Text_Box(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User clicks on Create an Account button",
+            "match": {
+              "location": "AP_Login_StepDefinition.user_clicks_on_Create_an_Account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User should be on Create an Account Page",
+            "match": {
+              "location": "AP_Login_StepDefinition.user_should_be_on_Create_an_Account_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.setUp2()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Create/register four accounts successfully",
+        "description": "",
+        "id": "verify-login/sign-up-functionalities;create/register-four-accounts-successfully;;5",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "User enters \"moose@gmail.com\"  in email Address Text Box",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "User clicks on Create an Account button",
+            "match": {
+              "location": "AP_Login_StepDefinition.user_clicks_on_Create_an_Account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "User should be on Create an Account Page",
+            "match": {
+              "location": "AP_Login_StepDefinition.user_should_be_on_Create_an_Account_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@practice_scenario_outline"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User is already on automation practice homepage",
+            "match": {
+              "location": "AP_Login_StepDefinition.user_is_already_on_automation_practice_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User clicks on sign in button",
+            "match": {
+              "location": "AP_Login_StepDefinition.user_clicks_on_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User enters \"mustakil@gmail.com\" in Email Address Text Box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mustakil@gmail.com\"",
+                  "offset": 12
+                }
+              ],
+              "location": "AP_Login_StepDefinition.user_enters_in_Email_Address_Text_Box(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User clicks on Create an Account button",
+            "match": {
+              "location": "AP_Login_StepDefinition.user_clicks_on_Create_an_Account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User should be on Create an Account Page",
+            "match": {
+              "location": "AP_Login_StepDefinition.user_should_be_on_Create_an_Account_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.setUp2()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Create/register an account successfully (preferred way to write scenario)",
+        "description": "",
+        "id": "verify-login/sign-up-functionalities;create/register-an-account-successfully-(preferred-way-to-write-scenario)",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "User enters Personal Information",
+            "match": {
+              "location": "AP_Login_StepDefinition.user_enters_Personal_Information()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "User enters Address Information",
+            "match": {
+              "location": "AP_Login_StepDefinition.user_enters_Address_Information()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "User clicks on Register button",
+            "match": {
+              "location": "AP_Login_StepDefinition.user_clicks_on_Register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "User should successfully be landed on My Account page",
+            "match": {
+              "location": "AP_Login_StepDefinition.user_should_successfully_be_landed_on_My_Account_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User is already on automation practice homepage",
+            "match": {
+              "location": "AP_Login_StepDefinition.user_is_already_on_automation_practice_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User clicks on sign in button",
+            "match": {
+              "location": "AP_Login_StepDefinition.user_clicks_on_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User enters \"mustakil@gmail.com\" in Email Address Text Box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mustakil@gmail.com\"",
+                  "offset": 12
+                }
+              ],
+              "location": "AP_Login_StepDefinition.user_enters_in_Email_Address_Text_Box(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User clicks on Create an Account button",
+            "match": {
+              "location": "AP_Login_StepDefinition.user_clicks_on_Create_an_Account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User should be on Create an Account Page",
+            "match": {
+              "location": "AP_Login_StepDefinition.user_should_be_on_Create_an_Account_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.setUp2()"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "Create/register an account successfully (practice way to write scenario)",
+        "description": "",
+        "id": "verify-login/sign-up-functionalities;create/register-an-account-successfully-(practice-way-to-write-scenario)",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 42,
+            "name": "User clicks on Mr. radio button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 43,
+            "name": "User enters \"Mustakil\" in First Name Text Box",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 44,
+            "name": "User enters \"Ali\" in Last Name Text Box",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 45,
+            "name": "User enters \"mustakil.ali@gmail.com\" in Email Address Text Box in Personal Information",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 46,
+            "name": "User enters \"123\" in Password Text Box",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 47,
+            "name": "User selects D.O.B in dropdowns",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 48,
+            "name": "User clicks on Sign up for our newsletter! checkbox",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 49,
+            "name": "User clicks on Rrecieve special offers from our partners! checkbox",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 50,
+            "name": "User enters \"Mustakil\" in First Name Text Box under Address",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 51,
+            "name": "User enters \"Ali\" in Last Name Text Box under Address",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 52,
+            "name": "User enters \"TEchCircle\" in Company Text Box",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 53,
+            "name": "User enters \"14631 Lee Hw\" in Address line one text box",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 54,
+            "name": "User enters \"#301\" in Address line two text box",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 55,
+            "name": "User enters \"Centreville\" in City text box",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 56,
+            "name": "User selects own state",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 57,
+            "name": "User selencts own country",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 58,
+            "name": "User enters \"7034555353\" in Mobile Phone textbox",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 59,
+            "name": "User clicks on Register button",
+            "match": {
+              "location": "AP_Login_StepDefinition.user_clicks_on_Register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "User should successfully be landed on My Account page",
+            "match": {
+              "location": "AP_Login_StepDefinition.user_should_successfully_be_landed_on_My_Account_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoketests"
+          }
+        ]
+      }
+    ],
+    "name": "Verify Login/Sign up functionalities",
+    "description": "",
+    "id": "verify-login/sign-up-functionalities",
+    "keyword": "Feature",
+    "uri": "src/test/resources/AP_Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User is already on automation practice homepage",
+            "match": {
+              "location": "AP_Login_StepDefinition.user_is_already_on_automation_practice_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.setUp2()"
+            }
+          }
+        ],
+        "line": 8,
         "name": "Verify thre Subcategory buttons",
         "description": "",
         "id": "verify-dresses-page-elements-and-buttons;verify-thre-subcategory-buttons",
