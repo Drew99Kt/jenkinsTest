@@ -41,4 +41,118 @@ public class AP_HomePageSearch_StepDefinition {
 	public void blouse_option_should_be_displayed() {
 
 	}
+	@Then("safheihgrs")
+	public void safheihgrs() {
+	    // Write code here that turns the phrase above into concrete actions
+	    
+	}
+
+	@When("User enters {string}  in email Address Text Box")
+	public void user_enters_in_email_Address_Text_Box(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    
+	}
+
+	@When("User clicks on Mr. radio button")
+	public void user_clicks_on_Mr_radio_button() {
+	    // Write code here that turns the phrase above into concrete actions
+	    
+	}
+
+	@When("User enters {string} in First Name Text Box")
+	public void user_enters_in_First_Name_Text_Box(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    
+	}
+
+	@When("User enters {string} in Last Name Text Box")
+	public void user_enters_in_Last_Name_Text_Box(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    
+	}
+
+	@When("User enters {string} in Email Address Text Box in Personal Information")
+	public void user_enters_in_Email_Address_Text_Box_in_Personal_Information(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    
+	}
+
+	@When("User enters {string} in Password Text Box")
+	public void user_enters_in_Password_Text_Box(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    
+	}
+
+	@When("User selects D.O.B in dropdowns")
+	public void user_selects_D_O_B_in_dropdowns() {
+	    // Write code here that turns the phrase above into concrete actions
+	    
+	}
+
+	@When("User clicks on Sign up for our newsletter! checkbox")
+	public void user_clicks_on_Sign_up_for_our_newsletter_checkbox() {
+	    // Write code here that turns the phrase above into concrete actions
+	    
+	}
+
+	@When("User clicks on Rrecieve special offers from our partners! checkbox")
+	public void user_clicks_on_Rrecieve_special_offers_from_our_partners_checkbox() {
+	    // Write code here that turns the phrase above into concrete actions
+	    
+	}
+
+	@When("User enters {string} in First Name Text Box under Address")
+	public void user_enters_in_First_Name_Text_Box_under_Address(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    
+	}
+
+	@When("User enters {string} in Last Name Text Box under Address")
+	public void user_enters_in_Last_Name_Text_Box_under_Address(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    
+	}
+
+	@When("User enters {string} in Company Text Box")
+	public void user_enters_in_Company_Text_Box(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    
+	}
+
+	@When("User enters {string} in Address line one text box")
+	public void user_enters_in_Address_line_one_text_box(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    
+	}
+
+	@When("User enters {string} in Address line two text box")
+	public void user_enters_in_Address_line_two_text_box(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    
+	}
+
+	@When("User enters {string} in City text box")
+	public void user_enters_in_City_text_box(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    
+	}
+
+	@When("User selects own state")
+	public void user_selects_own_state() {
+	    // Write code here that turns the phrase above into concrete actions
+	    
+	}
+
+	@When("User selencts own country")
+	public void user_selencts_own_country() {
+	    // Write code here that turns the phrase above into concrete actions
+	    
+	}
+
+	@When("User enters {string} in Mobile Phone textbox")
+	public void user_enters_in_Mobile_Phone_textbox(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    
+	}
+
 }

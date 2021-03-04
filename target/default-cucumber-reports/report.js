@@ -10,7 +10,7 @@ formatter.background({
   "keyword": "Background"
 });
 formatter.before({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User is already on automation practice homepage",
@@ -20,7 +20,7 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_is_already_on_automation_practice_homepage()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "Verify search term on home page",
@@ -43,7 +43,7 @@ formatter.match({
   "location": "AP_HomePageSearch_StepDefinition.user_enters_a_search_term()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User clicks on search button",
@@ -53,7 +53,7 @@ formatter.match({
   "location": "AP_HomePageSearch_StepDefinition.user_clicks_on_search_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Search box should contain the search term",
@@ -63,18 +63,20 @@ formatter.match({
   "location": "AP_HomePageSearch_StepDefinition.search_box_should_contain_the_search_term()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "safheihgrs",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "AP_HomePageSearch_StepDefinition.safheihgrs()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.after({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.background({
   "name": "",
@@ -82,7 +84,7 @@ formatter.background({
   "keyword": "Background"
 });
 formatter.before({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User is already on automation practice homepage",
@@ -92,7 +94,7 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_is_already_on_automation_practice_homepage()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "Search dresses and verify Blouse is an option",
@@ -112,7 +114,7 @@ formatter.match({
   "location": "AP_HomePageSearch_StepDefinition.user_enters_in_search_engine(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User clicks on search button",
@@ -122,7 +124,7 @@ formatter.match({
   "location": "AP_HomePageSearch_StepDefinition.user_clicks_on_search_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User should be on Search - My Store page",
@@ -132,7 +134,7 @@ formatter.match({
   "location": "AP_HomePageSearch_StepDefinition.user_should_be_on_Search_My_Store_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Blouse option should be displayed",
@@ -142,10 +144,10 @@ formatter.match({
   "location": "AP_HomePageSearch_StepDefinition.blouse_option_should_be_displayed()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.uri("src/test/resources/AP_Login.feature");
 formatter.feature({
@@ -213,7 +215,7 @@ formatter.background({
   "keyword": "Background"
 });
 formatter.before({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User is already on automation practice homepage",
@@ -223,7 +225,7 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_is_already_on_automation_practice_homepage()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User clicks on sign in button",
@@ -233,7 +235,7 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_clicks_on_sign_in_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User enters \"mustakil@gmail.com\" in Email Address Text Box",
@@ -243,7 +245,7 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_enters_in_Email_Address_Text_Box(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User clicks on Create an Account button",
@@ -253,7 +255,7 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_clicks_on_Create_an_Account_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User should be on Create an Account Page",
@@ -263,7 +265,7 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_should_be_on_Create_an_Account_Page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "Create/register four accounts successfully",
@@ -279,9 +281,11 @@ formatter.step({
   "name": "User enters \"park@gmail.com\"  in email Address Text Box",
   "keyword": "When "
 });
-formatter.match({});
+formatter.match({
+  "location": "AP_HomePageSearch_StepDefinition.user_enters_in_email_Address_Text_Box(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "User clicks on Create an Account button",
@@ -291,7 +295,7 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_clicks_on_Create_an_Account_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User should be on Create an Account Page",
@@ -301,10 +305,10 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_should_be_on_Create_an_Account_Page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.background({
   "name": "",
@@ -312,7 +316,7 @@ formatter.background({
   "keyword": "Background"
 });
 formatter.before({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User is already on automation practice homepage",
@@ -322,7 +326,7 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_is_already_on_automation_practice_homepage()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User clicks on sign in button",
@@ -332,7 +336,7 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_clicks_on_sign_in_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User enters \"mustakil@gmail.com\" in Email Address Text Box",
@@ -342,7 +346,7 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_enters_in_Email_Address_Text_Box(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User clicks on Create an Account button",
@@ -352,7 +356,7 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_clicks_on_Create_an_Account_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User should be on Create an Account Page",
@@ -362,7 +366,7 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_should_be_on_Create_an_Account_Page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "Create/register four accounts successfully",
@@ -378,9 +382,11 @@ formatter.step({
   "name": "User enters \"sim@gmail.com\"  in email Address Text Box",
   "keyword": "When "
 });
-formatter.match({});
+formatter.match({
+  "location": "AP_HomePageSearch_StepDefinition.user_enters_in_email_Address_Text_Box(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "User clicks on Create an Account button",
@@ -390,7 +396,7 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_clicks_on_Create_an_Account_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User should be on Create an Account Page",
@@ -400,10 +406,10 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_should_be_on_Create_an_Account_Page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.background({
   "name": "",
@@ -411,7 +417,7 @@ formatter.background({
   "keyword": "Background"
 });
 formatter.before({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User is already on automation practice homepage",
@@ -421,7 +427,7 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_is_already_on_automation_practice_homepage()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User clicks on sign in button",
@@ -431,7 +437,7 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_clicks_on_sign_in_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User enters \"mustakil@gmail.com\" in Email Address Text Box",
@@ -441,7 +447,7 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_enters_in_Email_Address_Text_Box(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User clicks on Create an Account button",
@@ -451,7 +457,7 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_clicks_on_Create_an_Account_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User should be on Create an Account Page",
@@ -461,7 +467,7 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_should_be_on_Create_an_Account_Page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "Create/register four accounts successfully",
@@ -477,9 +483,11 @@ formatter.step({
   "name": "User enters \"me@gmail.com\"  in email Address Text Box",
   "keyword": "When "
 });
-formatter.match({});
+formatter.match({
+  "location": "AP_HomePageSearch_StepDefinition.user_enters_in_email_Address_Text_Box(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "User clicks on Create an Account button",
@@ -489,7 +497,7 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_clicks_on_Create_an_Account_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User should be on Create an Account Page",
@@ -499,10 +507,10 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_should_be_on_Create_an_Account_Page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.background({
   "name": "",
@@ -510,7 +518,7 @@ formatter.background({
   "keyword": "Background"
 });
 formatter.before({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User is already on automation practice homepage",
@@ -520,7 +528,7 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_is_already_on_automation_practice_homepage()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User clicks on sign in button",
@@ -530,7 +538,7 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_clicks_on_sign_in_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User enters \"mustakil@gmail.com\" in Email Address Text Box",
@@ -540,7 +548,7 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_enters_in_Email_Address_Text_Box(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User clicks on Create an Account button",
@@ -550,7 +558,7 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_clicks_on_Create_an_Account_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User should be on Create an Account Page",
@@ -560,7 +568,7 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_should_be_on_Create_an_Account_Page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "Create/register four accounts successfully",
@@ -576,9 +584,11 @@ formatter.step({
   "name": "User enters \"moose@gmail.com\"  in email Address Text Box",
   "keyword": "When "
 });
-formatter.match({});
+formatter.match({
+  "location": "AP_HomePageSearch_StepDefinition.user_enters_in_email_Address_Text_Box(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "User clicks on Create an Account button",
@@ -588,7 +598,7 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_clicks_on_Create_an_Account_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User should be on Create an Account Page",
@@ -598,10 +608,10 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_should_be_on_Create_an_Account_Page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.background({
   "name": "",
@@ -609,7 +619,7 @@ formatter.background({
   "keyword": "Background"
 });
 formatter.before({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User is already on automation practice homepage",
@@ -619,7 +629,7 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_is_already_on_automation_practice_homepage()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User clicks on sign in button",
@@ -629,7 +639,7 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_clicks_on_sign_in_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User enters \"mustakil@gmail.com\" in Email Address Text Box",
@@ -639,7 +649,7 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_enters_in_Email_Address_Text_Box(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User clicks on Create an Account button",
@@ -649,7 +659,7 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_clicks_on_Create_an_Account_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User should be on Create an Account Page",
@@ -659,7 +669,7 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_should_be_on_Create_an_Account_Page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "Create/register an account successfully (preferred way to write scenario)",
@@ -674,7 +684,7 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_enters_Personal_Information()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User enters Address Information",
@@ -684,7 +694,7 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_enters_Address_Information()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User clicks on Register button",
@@ -694,7 +704,7 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_clicks_on_Register_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User should successfully be landed on My Account page",
@@ -704,10 +714,10 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_should_successfully_be_landed_on_My_Account_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.background({
   "name": "",
@@ -715,7 +725,7 @@ formatter.background({
   "keyword": "Background"
 });
 formatter.before({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User is already on automation practice homepage",
@@ -725,7 +735,7 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_is_already_on_automation_practice_homepage()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User clicks on sign in button",
@@ -735,7 +745,7 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_clicks_on_sign_in_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User enters \"mustakil@gmail.com\" in Email Address Text Box",
@@ -745,7 +755,7 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_enters_in_Email_Address_Text_Box(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User clicks on Create an Account button",
@@ -755,7 +765,7 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_clicks_on_Create_an_Account_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User should be on Create an Account Page",
@@ -765,7 +775,7 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_should_be_on_Create_an_Account_Page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "Create/register an account successfully (practice way to write scenario)",
@@ -781,137 +791,171 @@ formatter.step({
   "name": "User clicks on Mr. radio button",
   "keyword": "When "
 });
-formatter.match({});
+formatter.match({
+  "location": "AP_HomePageSearch_StepDefinition.user_clicks_on_Mr_radio_button()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "User enters \"Mustakil\" in First Name Text Box",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "AP_HomePageSearch_StepDefinition.user_enters_in_First_Name_Text_Box(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "User enters \"Ali\" in Last Name Text Box",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "AP_HomePageSearch_StepDefinition.user_enters_in_Last_Name_Text_Box(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "User enters \"mustakil.ali@gmail.com\" in Email Address Text Box in Personal Information",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "AP_HomePageSearch_StepDefinition.user_enters_in_Email_Address_Text_Box_in_Personal_Information(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "User enters \"123\" in Password Text Box",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "AP_HomePageSearch_StepDefinition.user_enters_in_Password_Text_Box(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "User selects D.O.B in dropdowns",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "AP_HomePageSearch_StepDefinition.user_selects_D_O_B_in_dropdowns()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "User clicks on Sign up for our newsletter! checkbox",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "AP_HomePageSearch_StepDefinition.user_clicks_on_Sign_up_for_our_newsletter_checkbox()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "User clicks on Rrecieve special offers from our partners! checkbox",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "AP_HomePageSearch_StepDefinition.user_clicks_on_Rrecieve_special_offers_from_our_partners_checkbox()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "User enters \"Mustakil\" in First Name Text Box under Address",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "AP_HomePageSearch_StepDefinition.user_enters_in_First_Name_Text_Box_under_Address(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "User enters \"Ali\" in Last Name Text Box under Address",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "AP_HomePageSearch_StepDefinition.user_enters_in_Last_Name_Text_Box_under_Address(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "User enters \"TEchCircle\" in Company Text Box",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "AP_HomePageSearch_StepDefinition.user_enters_in_Company_Text_Box(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "User enters \"14631 Lee Hw\" in Address line one text box",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "AP_HomePageSearch_StepDefinition.user_enters_in_Address_line_one_text_box(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "User enters \"#301\" in Address line two text box",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "AP_HomePageSearch_StepDefinition.user_enters_in_Address_line_two_text_box(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "User enters \"Centreville\" in City text box",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "AP_HomePageSearch_StepDefinition.user_enters_in_City_text_box(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "User selects own state",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "AP_HomePageSearch_StepDefinition.user_selects_own_state()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "User selencts own country",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "AP_HomePageSearch_StepDefinition.user_selencts_own_country()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "User enters \"7034555353\" in Mobile Phone textbox",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "AP_HomePageSearch_StepDefinition.user_enters_in_Mobile_Phone_textbox(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "User clicks on Register button",
@@ -921,7 +965,7 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_clicks_on_Register_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User should successfully be landed on My Account page",
@@ -931,10 +975,10 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_should_successfully_be_landed_on_My_Account_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.uri("src/test/resources/AP_verifyDressesPageFeatures.feature");
 formatter.feature({
@@ -948,7 +992,7 @@ formatter.background({
   "keyword": "Background"
 });
 formatter.before({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User is already on automation practice homepage",
@@ -958,7 +1002,7 @@ formatter.match({
   "location": "AP_Login_StepDefinition.user_is_already_on_automation_practice_homepage()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "Verify thre Subcategory buttons",
@@ -978,7 +1022,7 @@ formatter.match({
   "location": "AP_verifyDressesPageFeatures.user_clicks_on_dresses()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "successfully verifies three sub category buttons exist",
@@ -988,9 +1032,9 @@ formatter.match({
   "location": "AP_verifyDressesPageFeatures.successfully_verifies_three_sub_category_buttons_exist()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
-  "status": "skipped"
+  "status": "passed"
 });
 });

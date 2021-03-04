@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 
 		plugin = { "pretty", "html:target/default-cucumber-reports", "json:target/cucumber.json"},
 
-		features = "src/test/resources", glue = "step_definitions", dryRun = true//, //tags = "@Testing"
+		features = "src/test/resources", glue = "step_definitions", dryRun = false//, //tags = "@Testing"
 
 )
 

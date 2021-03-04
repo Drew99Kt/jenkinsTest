@@ -11,7 +11,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 20189800,
+              "status": "passed"
             },
             "line": 5,
             "name": "User is already on automation practice homepage",
@@ -26,7 +27,8 @@
         "before": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 4178985700,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.setUp2()"
@@ -40,7 +42,8 @@
         "after": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 571193600,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.tearDown(Scenario)"
@@ -52,7 +55,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 51784900,
+              "status": "passed"
             },
             "line": 9,
             "name": "User enters a search term",
@@ -63,7 +67,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 326400,
+              "status": "passed"
             },
             "line": 10,
             "name": "User clicks on search button",
@@ -74,7 +79,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 233800,
+              "status": "passed"
             },
             "line": 11,
             "name": "Search box should contain the search term",
@@ -85,11 +91,14 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 164900,
+              "status": "passed"
             },
             "line": 12,
             "name": "safheihgrs",
-            "match": {},
+            "match": {
+              "location": "AP_HomePageSearch_StepDefinition.safheihgrs()"
+            },
             "keyword": "And "
           }
         ],
@@ -111,7 +120,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 4501300,
+              "status": "passed"
             },
             "line": 5,
             "name": "User is already on automation practice homepage",
@@ -126,7 +136,8 @@
         "before": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 2800321600,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.setUp2()"
@@ -140,7 +151,8 @@
         "after": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 566471600,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.tearDown(Scenario)"
@@ -152,7 +164,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 442600,
+              "status": "passed"
             },
             "line": 17,
             "name": "User enters \"dresses\" in search engine",
@@ -169,7 +182,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 129200,
+              "status": "passed"
             },
             "line": 18,
             "name": "User clicks on search button",
@@ -180,7 +194,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 166600,
+              "status": "passed"
             },
             "line": 19,
             "name": "User should be on Search - My Store page",
@@ -191,7 +206,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 124900,
+              "status": "passed"
             },
             "line": 20,
             "name": "Blouse option should be displayed",
@@ -227,7 +243,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 3772600,
+              "status": "passed"
             },
             "line": 11,
             "name": "User is already on automation practice homepage",
@@ -238,7 +255,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1738934800,
+              "status": "passed"
             },
             "line": 12,
             "name": "User clicks on sign in button",
@@ -249,7 +267,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 50002000,
+              "status": "passed"
             },
             "line": 13,
             "name": "User enters \"mustakil@gmail.com\" in Email Address Text Box",
@@ -266,7 +285,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 41528400,
+              "status": "passed"
             },
             "line": 14,
             "name": "User clicks on Create an Account button",
@@ -277,7 +297,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2354800,
+              "status": "passed"
             },
             "line": 15,
             "name": "User should be on Create an Account Page",
@@ -292,7 +313,8 @@
         "before": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 2628623200,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.setUp2()"
@@ -306,7 +328,8 @@
         "after": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 561971000,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.tearDown(Scenario)"
@@ -318,16 +341,26 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 365100,
+              "status": "passed"
             },
             "line": 19,
             "name": "User enters \"park@gmail.com\"  in email Address Text Box",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"park@gmail.com\"",
+                  "offset": 12
+                }
+              ],
+              "location": "AP_HomePageSearch_StepDefinition.user_enters_in_email_Address_Text_Box(String)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 22075600,
+              "status": "passed"
             },
             "line": 20,
             "name": "User clicks on Create an Account button",
@@ -338,7 +371,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1915900,
+              "status": "passed"
             },
             "line": 21,
             "name": "User should be on Create an Account Page",
@@ -363,7 +397,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 4412600,
+              "status": "passed"
             },
             "line": 11,
             "name": "User is already on automation practice homepage",
@@ -374,7 +409,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1729354400,
+              "status": "passed"
             },
             "line": 12,
             "name": "User clicks on sign in button",
@@ -385,7 +421,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 46606000,
+              "status": "passed"
             },
             "line": 13,
             "name": "User enters \"mustakil@gmail.com\" in Email Address Text Box",
@@ -402,7 +439,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 38844000,
+              "status": "passed"
             },
             "line": 14,
             "name": "User clicks on Create an Account button",
@@ -413,7 +451,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2243200,
+              "status": "passed"
             },
             "line": 15,
             "name": "User should be on Create an Account Page",
@@ -428,7 +467,8 @@
         "before": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 3077220800,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.setUp2()"
@@ -442,7 +482,8 @@
         "after": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 568798200,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.tearDown(Scenario)"
@@ -454,16 +495,26 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 333300,
+              "status": "passed"
             },
             "line": 19,
             "name": "User enters \"sim@gmail.com\"  in email Address Text Box",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sim@gmail.com\"",
+                  "offset": 12
+                }
+              ],
+              "location": "AP_HomePageSearch_StepDefinition.user_enters_in_email_Address_Text_Box(String)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 21450300,
+              "status": "passed"
             },
             "line": 20,
             "name": "User clicks on Create an Account button",
@@ -474,7 +525,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3042300,
+              "status": "passed"
             },
             "line": 21,
             "name": "User should be on Create an Account Page",
@@ -499,7 +551,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 3952400,
+              "status": "passed"
             },
             "line": 11,
             "name": "User is already on automation practice homepage",
@@ -510,7 +563,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1140441300,
+              "status": "passed"
             },
             "line": 12,
             "name": "User clicks on sign in button",
@@ -521,7 +575,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 48656300,
+              "status": "passed"
             },
             "line": 13,
             "name": "User enters \"mustakil@gmail.com\" in Email Address Text Box",
@@ -538,7 +593,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 40219100,
+              "status": "passed"
             },
             "line": 14,
             "name": "User clicks on Create an Account button",
@@ -549,7 +605,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2703400,
+              "status": "passed"
             },
             "line": 15,
             "name": "User should be on Create an Account Page",
@@ -564,7 +621,8 @@
         "before": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 2997936400,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.setUp2()"
@@ -578,7 +636,8 @@
         "after": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 568149800,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.tearDown(Scenario)"
@@ -590,16 +649,26 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 306400,
+              "status": "passed"
             },
             "line": 19,
             "name": "User enters \"me@gmail.com\"  in email Address Text Box",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"me@gmail.com\"",
+                  "offset": 12
+                }
+              ],
+              "location": "AP_HomePageSearch_StepDefinition.user_enters_in_email_Address_Text_Box(String)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 21127300,
+              "status": "passed"
             },
             "line": 20,
             "name": "User clicks on Create an Account button",
@@ -610,7 +679,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2021900,
+              "status": "passed"
             },
             "line": 21,
             "name": "User should be on Create an Account Page",
@@ -635,7 +705,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 4422500,
+              "status": "passed"
             },
             "line": 11,
             "name": "User is already on automation practice homepage",
@@ -646,7 +717,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3223156200,
+              "status": "passed"
             },
             "line": 12,
             "name": "User clicks on sign in button",
@@ -657,7 +729,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 47292400,
+              "status": "passed"
             },
             "line": 13,
             "name": "User enters \"mustakil@gmail.com\" in Email Address Text Box",
@@ -674,7 +747,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 37400200,
+              "status": "passed"
             },
             "line": 14,
             "name": "User clicks on Create an Account button",
@@ -685,7 +759,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1877700,
+              "status": "passed"
             },
             "line": 15,
             "name": "User should be on Create an Account Page",
@@ -700,7 +775,8 @@
         "before": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 4860634300,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.setUp2()"
@@ -714,7 +790,8 @@
         "after": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 577783700,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.tearDown(Scenario)"
@@ -726,16 +803,26 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 325600,
+              "status": "passed"
             },
             "line": 19,
             "name": "User enters \"moose@gmail.com\"  in email Address Text Box",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"moose@gmail.com\"",
+                  "offset": 12
+                }
+              ],
+              "location": "AP_HomePageSearch_StepDefinition.user_enters_in_email_Address_Text_Box(String)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 20465600,
+              "status": "passed"
             },
             "line": 20,
             "name": "User clicks on Create an Account button",
@@ -746,7 +833,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2226000,
+              "status": "passed"
             },
             "line": 21,
             "name": "User should be on Create an Account Page",
@@ -771,7 +859,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 4030400,
+              "status": "passed"
             },
             "line": 11,
             "name": "User is already on automation practice homepage",
@@ -782,7 +871,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2214584800,
+              "status": "passed"
             },
             "line": 12,
             "name": "User clicks on sign in button",
@@ -793,7 +883,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 47095800,
+              "status": "passed"
             },
             "line": 13,
             "name": "User enters \"mustakil@gmail.com\" in Email Address Text Box",
@@ -810,7 +901,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 37198900,
+              "status": "passed"
             },
             "line": 14,
             "name": "User clicks on Create an Account button",
@@ -821,7 +913,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2218100,
+              "status": "passed"
             },
             "line": 15,
             "name": "User should be on Create an Account Page",
@@ -836,7 +929,8 @@
         "before": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 3193824900,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.setUp2()"
@@ -850,7 +944,8 @@
         "after": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 570229900,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.tearDown(Scenario)"
@@ -862,7 +957,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 159800,
+              "status": "passed"
             },
             "line": 33,
             "name": "User enters Personal Information",
@@ -873,7 +969,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 90600,
+              "status": "passed"
             },
             "line": 34,
             "name": "User enters Address Information",
@@ -884,7 +981,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 76800,
+              "status": "passed"
             },
             "line": 35,
             "name": "User clicks on Register button",
@@ -895,7 +993,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 85700,
+              "status": "passed"
             },
             "line": 36,
             "name": "User should successfully be landed on My Account page",
@@ -915,7 +1014,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 5112400,
+              "status": "passed"
             },
             "line": 11,
             "name": "User is already on automation practice homepage",
@@ -926,7 +1026,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 767987400,
+              "status": "passed"
             },
             "line": 12,
             "name": "User clicks on sign in button",
@@ -937,7 +1038,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 48268900,
+              "status": "passed"
             },
             "line": 13,
             "name": "User enters \"mustakil@gmail.com\" in Email Address Text Box",
@@ -954,7 +1056,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 41017800,
+              "status": "passed"
             },
             "line": 14,
             "name": "User clicks on Create an Account button",
@@ -965,7 +1068,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3331000,
+              "status": "passed"
             },
             "line": 15,
             "name": "User should be on Create an Account Page",
@@ -980,7 +1084,8 @@
         "before": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 2886723600,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.setUp2()"
@@ -994,7 +1099,8 @@
         "after": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 570669700,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.tearDown(Scenario)"
@@ -1006,160 +1112,278 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 358400,
+              "status": "passed"
             },
             "line": 42,
             "name": "User clicks on Mr. radio button",
-            "match": {},
+            "match": {
+              "location": "AP_HomePageSearch_StepDefinition.user_clicks_on_Mr_radio_button()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 97900,
+              "status": "passed"
             },
             "line": 43,
             "name": "User enters \"Mustakil\" in First Name Text Box",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mustakil\"",
+                  "offset": 12
+                }
+              ],
+              "location": "AP_HomePageSearch_StepDefinition.user_enters_in_First_Name_Text_Box(String)"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 75600,
+              "status": "passed"
             },
             "line": 44,
             "name": "User enters \"Ali\" in Last Name Text Box",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ali\"",
+                  "offset": 12
+                }
+              ],
+              "location": "AP_HomePageSearch_StepDefinition.user_enters_in_Last_Name_Text_Box(String)"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 74700,
+              "status": "passed"
             },
             "line": 45,
             "name": "User enters \"mustakil.ali@gmail.com\" in Email Address Text Box in Personal Information",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mustakil.ali@gmail.com\"",
+                  "offset": 12
+                }
+              ],
+              "location": "AP_HomePageSearch_StepDefinition.user_enters_in_Email_Address_Text_Box_in_Personal_Information(String)"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 82500,
+              "status": "passed"
             },
             "line": 46,
             "name": "User enters \"123\" in Password Text Box",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123\"",
+                  "offset": 12
+                }
+              ],
+              "location": "AP_HomePageSearch_StepDefinition.user_enters_in_Password_Text_Box(String)"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 69300,
+              "status": "passed"
             },
             "line": 47,
             "name": "User selects D.O.B in dropdowns",
-            "match": {},
+            "match": {
+              "location": "AP_HomePageSearch_StepDefinition.user_selects_D_O_B_in_dropdowns()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 64800,
+              "status": "passed"
             },
             "line": 48,
             "name": "User clicks on Sign up for our newsletter! checkbox",
-            "match": {},
+            "match": {
+              "location": "AP_HomePageSearch_StepDefinition.user_clicks_on_Sign_up_for_our_newsletter_checkbox()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 73700,
+              "status": "passed"
             },
             "line": 49,
             "name": "User clicks on Rrecieve special offers from our partners! checkbox",
-            "match": {},
+            "match": {
+              "location": "AP_HomePageSearch_StepDefinition.user_clicks_on_Rrecieve_special_offers_from_our_partners_checkbox()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 91900,
+              "status": "passed"
             },
             "line": 50,
             "name": "User enters \"Mustakil\" in First Name Text Box under Address",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mustakil\"",
+                  "offset": 12
+                }
+              ],
+              "location": "AP_HomePageSearch_StepDefinition.user_enters_in_First_Name_Text_Box_under_Address(String)"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 83100,
+              "status": "passed"
             },
             "line": 51,
             "name": "User enters \"Ali\" in Last Name Text Box under Address",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ali\"",
+                  "offset": 12
+                }
+              ],
+              "location": "AP_HomePageSearch_StepDefinition.user_enters_in_Last_Name_Text_Box_under_Address(String)"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 82200,
+              "status": "passed"
             },
             "line": 52,
             "name": "User enters \"TEchCircle\" in Company Text Box",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TEchCircle\"",
+                  "offset": 12
+                }
+              ],
+              "location": "AP_HomePageSearch_StepDefinition.user_enters_in_Company_Text_Box(String)"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 74400,
+              "status": "passed"
             },
             "line": 53,
             "name": "User enters \"14631 Lee Hw\" in Address line one text box",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"14631 Lee Hw\"",
+                  "offset": 12
+                }
+              ],
+              "location": "AP_HomePageSearch_StepDefinition.user_enters_in_Address_line_one_text_box(String)"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 87700,
+              "status": "passed"
             },
             "line": 54,
             "name": "User enters \"#301\" in Address line two text box",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"#301\"",
+                  "offset": 12
+                }
+              ],
+              "location": "AP_HomePageSearch_StepDefinition.user_enters_in_Address_line_two_text_box(String)"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 77000,
+              "status": "passed"
             },
             "line": 55,
             "name": "User enters \"Centreville\" in City text box",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Centreville\"",
+                  "offset": 12
+                }
+              ],
+              "location": "AP_HomePageSearch_StepDefinition.user_enters_in_City_text_box(String)"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 71200,
+              "status": "passed"
             },
             "line": 56,
             "name": "User selects own state",
-            "match": {},
+            "match": {
+              "location": "AP_HomePageSearch_StepDefinition.user_selects_own_state()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 67500,
+              "status": "passed"
             },
             "line": 57,
             "name": "User selencts own country",
-            "match": {},
+            "match": {
+              "location": "AP_HomePageSearch_StepDefinition.user_selencts_own_country()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 87600,
+              "status": "passed"
             },
             "line": 58,
             "name": "User enters \"7034555353\" in Mobile Phone textbox",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"7034555353\"",
+                  "offset": 12
+                }
+              ],
+              "location": "AP_HomePageSearch_StepDefinition.user_enters_in_Mobile_Phone_textbox(String)"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 95600,
+              "status": "passed"
             },
             "line": 59,
             "name": "User clicks on Register button",
@@ -1170,7 +1394,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 111700,
+              "status": "passed"
             },
             "line": 60,
             "name": "User should successfully be landed on My Account page",
@@ -1206,7 +1431,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 3789300,
+              "status": "passed"
             },
             "line": 5,
             "name": "User is already on automation practice homepage",
@@ -1221,7 +1447,8 @@
         "before": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 2652350900,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.setUp2()"
@@ -1235,7 +1462,8 @@
         "after": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 564905900,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.tearDown(Scenario)"
@@ -1247,7 +1475,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 958248000,
+              "status": "passed"
             },
             "line": 9,
             "name": "user clicks on dresses",
@@ -1258,7 +1487,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 58697600,
+              "status": "passed"
             },
             "line": 10,
             "name": "successfully verifies three sub category buttons exist",
