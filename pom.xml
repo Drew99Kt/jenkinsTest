@@ -48,7 +48,10 @@
 			<plugin>
 			
 			
-					<groupId>org.apache.maven.plugins</groupId>
+			
+			
+			
+				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.0.0-M5</version>
 				<configuration>
@@ -56,10 +59,9 @@
        
        
           <includes>
-            <include>AP_HomePageSearch_StepDefinition</include>
+            <include>CukesRunner.java</include>
     		
-    		<include>AP_Login_StepDefinition</include>
-    		<include>AP_verifyDressesPageFeatures</include>
+    		
           </includes>
           
           
@@ -68,9 +70,6 @@
           
           
 				</configuration>
-			
-			
-		
 			</plugin>
 			<plugin>
 				<groupId>net.masterthought</groupId>
@@ -93,6 +92,9 @@
 							<enableflashcharts></enableflashcharts>
 							
 							
+							
+							
+							
 						</configuration>
 					</execution>
 				</executions>
@@ -101,6 +103,32 @@
 		</plugins>
 	</build>
 
-  
+  <profiles>
+    <profile>
+        <id>integration-tests</id>
+        <build>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-failsafe-plugin</artifactId>
+                    <configuration>
+                        <parallel>none</parallel>
+                        <threadCount>1</threadCount>
+                        <disableXmlReport>true</disableXmlReport>
+                    </configuration>
+                    <executions>
+                        <execution>
+                            <id>Runnerclass</id>
+                            <phase>integration-test</phase>
+                            <goals>
+                                <goal>integration-test</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
+            </plugins>
+        </build>
+    </profile>
+</profiles>
   
 </project>
